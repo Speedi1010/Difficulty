@@ -62,7 +62,7 @@
             this.difficultyLabel.BackColor = System.Drawing.Color.Black;
             this.difficultyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.difficultyLabel.ForeColor = System.Drawing.Color.White;
-            this.difficultyLabel.Location = new System.Drawing.Point(74, 130);
+            this.difficultyLabel.Location = new System.Drawing.Point(112, 124);
             this.difficultyLabel.Name = "difficultyLabel";
             this.difficultyLabel.Size = new System.Drawing.Size(264, 36);
             this.difficultyLabel.TabIndex = 2;
