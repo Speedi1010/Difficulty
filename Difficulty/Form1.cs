@@ -32,7 +32,7 @@ namespace Difficulty
 
         private void easyButton_Click(object sender, EventArgs e)
         { 
-            easyButton.BackColor = Color.LightGreen;
+            easyButton.BackColor = Color.LimeGreen;
             mediumButton.BackColor = Color.Black;
             hardButton.BackColor = Color.Black;
             difficulty = "Easy";
