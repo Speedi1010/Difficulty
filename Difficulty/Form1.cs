@@ -12,6 +12,7 @@ namespace Difficulty
 {
     public partial class Form1 : Form
     {
+        string heroname;
         string difficulty;
 
         public Form1()
@@ -41,7 +42,7 @@ namespace Difficulty
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string heroname = nameInput.Text;
+            heroname = nameInput.Text;
             if (difficulty == "Easy")
             {
                 outputLabel.Location = new Point(48, 313);
